@@ -1,0 +1,96 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.contenedorMain{
+    height: 100%;
+    background-image: url(src/backgroundGeneral.jpg);
+    background-size: cover;
+}
+
+.encabezado{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(232,231,230,0.5);
+    border: #D8DCD6 1px solid;
+}
+.logo{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    right: 10px;
+    border-radius: 10px;
+}
+.tituloPrincipal{
+    font-style: italic;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.imagenCentral{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 48%;
+}
+.contenedorHogar{
+    position: absolute;
+    top: 30%;
+    left: 16%;
+    background-color:rgba(182, 180, 179, 0.5);
+    text-align: center;
+    font-size: 110%;
+    font-family:sans-serif;
+    font-weight: bolder;
+    color:#36013F;
+}
+.contenedorVehiculos{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    background-color:rgba(182, 180, 179, 0.5);
+    text-align: center;
+    font-size: 110%;
+    font-family:sans-serif;
+    font-weight: bolder;
+    color:#36013F;
+}
+.contenedorAccidentes{
+    position: absolute;
+    top: 60%;
+    left: 22%;
+    background-color:rgba(182, 180, 179, 0.5);
+    text-align: center;
+    font-size: 110%;
+    font-family:sans-serif;
+    font-weight: bolder;
+    color:#36013F;
+}
+.contenedorContacto{
+    width: 99%;
+    position: absolute;
+    top: 75%;
+}
+.logoPiedePagina{
+    width: 125px;
+    padding-left: 100px;
+    
+}
+.contenedorLinks{
+    position: relative;
+    bottom: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right:15%;
+
+}
+.estiloLinks{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: #FD3C07;
+    padding: 20px;
+}
